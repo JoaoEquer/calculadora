@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="calculator-solid.svg" type="image/x-icon" />
+    <title>Calculadora</title>
+
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="num1" placeholder="Digite o primeiro número">
+        <input type="text" id="num2" placeholder="Digite o segundo número">
+        <select id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <button onclick="calculate()">Calcular</button>
+        <p id="result"></p>
+    </div>
+
+    <div class="explanation">
+        <h2>Explicação dos Operadores</h2>
+        <p><strong>+</strong> (Adição): Soma os números.</p>
+        <p><strong>-</strong> (Subtração): Subtrai o segundo número do primeiro.</p>
+        <p><strong>*</strong> (Multiplicação): Multiplica os números.</p>
+        <p><strong>/</strong> (Divisão): Divide o primeiro número pelo segundo.</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

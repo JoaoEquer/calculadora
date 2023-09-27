@@ -1,0 +1,56 @@
+body {
+    background-color: #354F52;
+    color: #84A98C;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #84A98C;
+    padding: 20px;
+    border-radius: 10px;
+    color: white; /* Alterando a cor do texto para branco */
+    margin-bottom: 20px; /* Ajustando margem inferior */
+}
+
+.explanation {
+    background-color: #84A98C;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+.explanation h2 {
+    color: white; /* Cor do título */
+}
+
+.explanation p {
+    color: white; /* Cor do texto da explicação */
+}
+input, select, button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #354F52;
+    color: #84A98C;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #84A98C;
+    color: #354F52;
+}
+
+#result {
+    color: rgb(243, 240, 240);
+    font-size: x-large ;
+}
